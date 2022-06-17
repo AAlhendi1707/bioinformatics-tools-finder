@@ -125,6 +125,7 @@ mysql> CREATE TABLE IF NOT EXISTS `customers` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
 
-** heroku will put your add in sleep mode after 30 mins ** 
+**Heroku will put your add in sleep mode after 30 mins**
+
 Solution is to ping your web app link every 30 mins by adding it to https://kaffeine.herokuapp.com/
 
