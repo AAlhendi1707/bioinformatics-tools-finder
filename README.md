@@ -3,7 +3,7 @@ Using : Python * Flask * MySQL * Heroku
 
 Web app link: https://bioinformatics-tools-finder.herokuapp.com
 
-<img style="margin:1rem;" width="75%" src="demo.png" />
+<img style="margin:1rem;" width="80%" src="demo.png" />
 
 
 ### Design and deployment:
