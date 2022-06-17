@@ -130,5 +130,6 @@ mysql> CREATE TABLE IF NOT EXISTS `customers` (
 Solution is to ping your web app link every 30 mins by adding it to https://kaffeine.herokuapp.com/
 
 **More info about Heroku scaling work and CLI**
-https://devcenter.heroku.com/articles/scaling
-https://devcenter.heroku.com/articles/heroku-cli-commands
+
+- https://devcenter.heroku.com/articles/scaling
+- https://devcenter.heroku.com/articles/heroku-cli-commands
