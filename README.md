@@ -1,2 +1,10 @@
 # Quick searchable bioinformatics database web app
-## using : Python * Flask * MySQL * Heroku
+Using : Python * Flask * MySQL * Heroku
+
+
+### Contents:
+
+- [Wep App coding using VS code](https://github.com/AAlhendi1707/bioinformatics-tools-finder/blob/main/design.md)
+- [Deployment to heroku](https://github.com/AAlhendi1707/bioinformatics-tools-finder/blob/main/deployment.md)
+
+<img style="margin:1rem;" width="50%" src="app-workflow.png" />
