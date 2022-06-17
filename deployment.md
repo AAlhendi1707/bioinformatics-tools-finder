@@ -102,10 +102,11 @@ Don’t forget to push the updated code to Heroku remote repository.
 git add .
 git commit -am "better version of the app"
 git push heroku master
+heroku ps:scale to web=1
 ```
 
 ```json
-Don't forget to set heroku ps:scale to web=1, after each update and new git push to keep your app free //#f03c15 
+Don't forget to set heroku ps:scale to web=1, after each update and fresh git push to keep your app free //#f03c15 
 ```
 
 **Create MySQL table on ClearDB**
