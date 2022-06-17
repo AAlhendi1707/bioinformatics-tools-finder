@@ -100,8 +100,12 @@ app.config['MYSQL_DB'] = 'database'
 Don’t forget to push the updated code to Heroku remote repository.
 ```sh
 git add .
-git commit
+git commit -am "better version of the app"
 git push heroku master
+```
+
+```json
+Don't forget to set heroku ps:scale to web=1, after each update and new git push to keep your app free //#f03c15 
 ```
 
 **Create MySQL table on ClearDB**
@@ -119,4 +123,7 @@ mysql> CREATE TABLE IF NOT EXISTS `customers` (
   pmid varchar(45) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
+
+** heroku will put your add in sleep mode after 30 mins ** 
+Solution is to ping your web app link every 30 mins by adding it to https://kaffeine.herokuapp.com/
 
