@@ -1,4 +1,4 @@
-# Quick searchable bioinformatics database web app
+# Web app for quick search of bioinformatics database
 Using : Python * Flask * MySQL * Heroku
 
 Web app link: https://bioinformatics-tools-finder.herokuapp.com
