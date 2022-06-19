@@ -30,10 +30,10 @@ to communicate with MYSQL data base that will create on the heroku later.
 
 to webpage design and to capture the response from searching table in MYSQL database
 
-### step 3 - create requirment.txt file
+### step 3 - create requirements.txt
 
 ```sh
-pip freeze > requirment.txt
+pip freeze > requirements.txt
 ```
 ### step 4- create Procfile
 
